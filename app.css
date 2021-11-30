@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fca311;
+} h1 {
+    font-size: 80px;
+} p {
+    position: relative;
+    font-size: 100px;
+    animation: arrowAni 1s infinite;
+    color: black;
+} .colorCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+} #colorBtn {
+    border: none;
+    border-width: 0px;
+    border-color: none;
+    border-style: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: 600;
+} #colorBtn:hover {
+    background-color: rgb(223, 198, 198);
+} @keyframes arrowAni {
+    0%{top: 0px;}
+    50%{top: 15px;}
+    100%{top: 0px;}
+}
